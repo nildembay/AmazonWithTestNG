@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Class Tests" parallel="classes" thread-count="2">
+    <test name="Parallel">
+        <classes>
+            <class name="tests.US03_TC01_AmazonMusicMenu"/>
+
+        </classes>
+    </test>
+
+</suite>
